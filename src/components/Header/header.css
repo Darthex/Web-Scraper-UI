@@ -1,0 +1,22 @@
+.app-header {
+    background-color: var(--background-dark);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
+}
+
+.app-title {
+    font-size: 32px;
+    height: 100%;
+    font-family: 'Sixtyfour', sans-serif;
+    color: var(--dangerRed);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .app-title {
+        font-size: 15px;
+    }
+}

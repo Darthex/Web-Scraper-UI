@@ -1,0 +1,24 @@
+.icon {
+    height: 15px;
+    width: auto;
+}
+.st0 {
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+    fill:#EC6F59;
+}
+
+.st1 {
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+    fill:#FAD15C;
+}
+
+.meta-container {
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    gap: 10px;
+    font-family: var(--font);
+    color: white;
+}

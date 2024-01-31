@@ -1,0 +1,23 @@
+.loading {
+    display: none;
+}
+
+.loaded {
+    display: block;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.image-container {
+    min-width: 330px;
+}
+
+@media only screen and (max-width: 600px) {
+    .image-container {
+        max-width: 600px;
+    }
+}

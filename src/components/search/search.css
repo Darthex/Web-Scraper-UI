@@ -1,0 +1,37 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    height: 30px;
+    width: 300px;
+    background-color: transparent;
+    border: 3px solid var(--dangerRed);
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    padding: 5px;
+}
+
+.search-icon {
+    height: 30px;
+    background-color: transparent;
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    color: var(--dangerRed);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .text-box {
+        width: 100px;
+        height: 20px;
+    }
+    .search-icon {
+        font-size: 10px;
+    }
+}

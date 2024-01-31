@@ -1,0 +1,24 @@
+:root {
+    --dangerRed: rgb(111,42,14);
+    --spinnerSize: 30px;
+    --smallSpinnerSize: 15px;
+    --background: rgb(40,49,56);
+    --background-dark: #1A1A1D;
+    --font: 'Montserrat', sans-serif;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
